@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0 user-scalable=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="\porfolio-completo-main\porfolio\CSS\estilo.css"
+    />
+    <title>PORTAFOLIO</title>
+  </head>
+
+  <body>
+    <!-- HOME -->
+    <section id="home">
+      <div class="content">
+        <header>
+          <div class="content-header">
+            <h1>< /IvanHG ></h1>
+            <nav id="nav" class="">
+              <ul id="links">
+                <li>
+                  <a href="#home" class="selected" onclick="seleccionar(this)"
+                    >HOME</a
+                  >
+                </li>
+                <li>
+                  <a href="#aboutme" onclick="seleccionar(this)">ABOUT ME</a>
+                </li>
+                <li>
+                  <a href="#technologies" onclick="seleccionar(this)"
+                    >TECHNOLOGIES</a
+                  >
+                </li>
+                <li>
+                  <a href="#projects" onclick="seleccionar(this)">PROJECTS</a>
+                </li>
+                <li>
+                  <a href="#contact" onclick="seleccionar(this)">CONTACT</a>
+                </li>
+              </ul>
+            </nav>
+
+            <!-- MENU RESPONS.-->
+            <div id="icon-nav" onclick="responsiveMenu()">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <div class="social">
+              <a href="https://github.com/IvanHG-OffSec"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a href="mailto:ignacioivanhg@gmail.com"
+                ><i class="fa fa-envelope"></i
+              ></a>
+              <a href="https://www.facebook.com/profile.php?id=100011629599930"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="https://www.instagram.com/paip_dk/?hl=es-la"
+                ><i class="fa-brands fa-instagram-square"></i
+              ></a>
+            </div>
+          </div>
+        </header>
+        <div class="presentation">
+          <p class="welcome">WELCOME</p>
+          <h2>I'm <span>Ignacio Ivan HG</span>, Developer</h2>
+          <p class="description">Computer engineer who loves technology.</p>
+          <a href="#projects">Go to my projects</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT ME -->
+    <section id="aboutme">
+      <div class="container-photo">
+        <img src="\porfolio-completo-main\porfolio/img/Ivan.jpeg" alt="" />
+      </div>
+      <div class="aboutme">
+        <p class="section-title">About me</p>
+        <h2>Hi!, my name is <span>Ignacio Ivan Herrera G.</span></h2>
+        <h3>Developer</h3>
+        <p>
+          Hardworking student looking for a job. Technologically savvy, I offer
+          experience in programming, office technology programs, and computer
+          skills.
+        </p>
+        <p>
+          Jr. programmer with experience in Java, databases (SQL & MySQL),
+          structured programming and web development.
+        </p>
+        <a
+          download="CV Herrera Gomez Ignacio Ivan"
+          href="\porfolio-completo-main\porfolio/CV/CV Herrera Gomez Ignacio Ivan.pdf"
+        >
+          <i class="fa-solid fa-file-arrow-down"></i> Download CV
+        </a>
+      </div>
+    </section>
+
+    <!-- TECHNOLOGIES -->
+    <section id="technologies">
+      <h3 class="section-title">MY TECHNOLOGIES</h3>
+      <div class="row">
+        <div class="tech">
+          <span class="icon"> <i class="fa-solid fa-code"></i></span>
+          <h4>WEBSITES DESIGN</h4>
+          <hr />
+          <ul class="technologies-tag">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JS</li>
+          </ul>
+          <p>Experience developing dynamic and responsive websites.</p>
+        </div>
+        <div class="tech">
+          <span class="icon"><i class="fa-solid fa-file-code"></i></span>
+          <h4>JAVA</h4>
+          <hr />
+          <ul class="technologies-tag">
+            <li>POO</li>
+            <li>STRUCTURED DATA</li>
+            <li>APPS</li>
+          </ul>
+          <p>
+            Development of object-oriented programs, desktop applications and
+            algorithms.
+          </p>
+        </div>
+        <div class="tech">
+          <span class="icon"><i class="fa-solid fa-arrow-trend-up"></i></span>
+          <h4>C</h4>
+          <hr />
+          <ul class="technologies-tag">
+            <li></li>
+            <li>STRUCTURED DATA</li>
+            <li></li>
+          </ul>
+          <p>Structured programs and algorithms in C language.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="tech">
+          <span class="icon"><i class="fa-solid fa-database"></i></span>
+          <h4>SQL & MY SQL</h4>
+          <hr />
+          <ul class="technologies-tag">
+            <li>HOSTING</li>
+            <li></li>
+            <li>QUERYS</li>
+          </ul>
+          <p>
+            Queries, creation of databases and management of user permissions in
+            databases.
+          </p>
+        </div>
+        <div class="tech">
+          <span class="icon"><i class="fa-solid fa-palette"></i></span>
+          <h4>UI</h4>
+          <hr />
+          <ul class="technologies-tag">
+            <li>DESIGN</li>
+            <li></li>
+            <li>JAVA SWING</li>
+          </ul>
+          <p>Creation and design of user interfaces with Java packages.</p>
+        </div>
+        <div class="tech">
+          <span class="icon"
+            ><i class="fa-solid fa-person-circle-question"></i
+          ></span>
+          <h4>UX</h4>
+          <hr />
+          <ul class="technologies-tag">
+            <li>USER</li>
+            <li>GRAPHIC</li>
+            <li>EXPERIENCE</li>
+          </ul>
+          <p>
+            Development of programs and graphic applications for users and
+            attractive designs.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <div class="container-skills" id="skills">
+      <h3>SKILLS</h3>
+      <div class="skill">
+        <div class="info">
+          <p><span class="list"> </span>Html, Css & JS</p>
+          <span class="percentage">80%</span>
+        </div>
+
+        <div class="bar">
+          <div class="" id="html"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="info">
+          <p><span class="list"> </span>Java</p>
+          <span class="percentage">90%</span>
+        </div>
+
+        <div class="bar">
+          <div class="" id="js"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="info">
+          <p><span class="list"> </span>SQL & My SQL</p>
+          <span class="percentage">80%</span>
+        </div>
+
+        <div class="bar">
+          <div class="" id="bd"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="info">
+          <p><span class="list"> </span>English</p>
+          <span class="percentage">75%</span>
+        </div>
+
+        <div class="bar">
+          <div class="" id="ps"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <h3 class="section-title">My projects</h3>
+      <div class="row">
+        <div class="project">
+          <div class="overlay"></div>
+          <img
+            src="\porfolio-completo-main\porfolio/img/Proyecto_1.jpeg"
+            alt="pr1"
+          />
+          <div class="info">
+            <h4>NovHealt V1.</h4>
+            <p>Diseño Web</p>
+          </div>
+        </div>
+        <div class="project">
+          <div class="overlay"></div>
+          <img
+            src="\porfolio-completo-main\porfolio/img/Proyecto_2.jpeg"
+            alt="pr2"
+          />
+          <div class="info">
+            <h4>NovHealt V2.</h4>
+            <p>Diseño Web</p>
+          </div>
+        </div>
+        <div class="project">
+          <div class="overlay"></div>
+          <img
+            src="\porfolio-completo-main\porfolio/img/Proyecto_3.jpg"
+            alt="pr3"
+          />
+          <div class="info">
+            <h4>Punto de venta.</h4>
+            <p>Java App</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <h3 class="section-title">Contact</h3>
+      <br />
+      <br />
+      <section class="buttons">
+        <a href="https://github.com/IvanHG-OffSec" class="fa fa-github"></a>
+        <a href="mailto:ignacioivanhg@gmail.com" class="fa fa-envelope"></a>
+        <a
+          href="https://www.instagram.com/paip_dk/?hl=es-la"
+          class="fa fa-instagram"
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/ignacio-ivan-herrera-gomez-12aa84221/"
+          class="fa fa-linkedin"
+        ></a>
+      </section>
+    </section>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+      <p>All rights reserved - 2023</p>
+      <div class="social">
+        <a href="https://github.com/IvanHG-OffSec"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a href="mailto:ignacioivanhg@gmail.com"
+          ><i class="fa fa-envelope"></i
+        ></a>
+        <a href="https://www.facebook.com/profile.php?id=100011629599930"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+        <a href="https://www.instagram.com/paip_dk/?hl=es-la"
+          ><i class="fa-brands fa-instagram-square"></i
+        ></a>
+      </div>
+    </footer>
+
+    <script src="\porfolio-completo-main\porfolio/JS/script.js"></script>
+  </body>
+</html>
